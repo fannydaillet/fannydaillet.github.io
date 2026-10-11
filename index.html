@@ -17,46 +17,50 @@
     <header>
 
         <!-- menu -->
-        <div class="row">
-            <div class="col">
-                <nav class="navbar navbar-expand-lg">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="#"></a>
-                        <p class="menu"><button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                                aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button></p>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Accueil</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#a-propos">A propos</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#competences">Compétences</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#experiences">Expériences</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#formation">Formations</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#portfolio">Portfolio</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="#" aria-label="Retour à l'accueil">
+                    <img src="./assets/img/esquisse_fd.png" alt="Personnage illustré de Fanny Daillet"
+                        class="navbar-character">
+                </a>
+
+                <p class="menu"><button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button></p>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#competences">Compétences</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experiences">Expériences</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#formation">Formations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact ↗</a>
+                        </li>
+
+
+                    </ul>
+                </div>
             </div>
-        </div>
+        </nav>
+
 
 
         <!-- a propos -->
-        <section id="a-propos">
+        <!-- <section id="a-propos">
             <div class="container aPropos">
                 <div class="row">
                     <div class="col-md-4 mt-md-5 text-center">
@@ -76,12 +80,73 @@
                     </div>
                 </div>
             </div>
+        </section> -->
+
+
+        <!-- NOUVELLE PAGE D'ACCUEIL -->
+        <section id="a-propos" class="hero">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <!-- Présentation -->
+                    <div class="col-lg-7 hero-content">
+
+                        <span class="hero-intro">
+                            BONJOUR, MOI C'EST
+                        </span>
+
+                        <h1>FANNY<br>DAILLET<span class="point">.</span></h1>
+
+                        <h2 class="hero-metier">
+                            Chargée de communication
+                            digitale & culturelle
+                        </h2>
+
+                        <p class="hero-accroche">
+                            J'imagine. Je crée. Je raconte.
+                        </p>
+
+                        <p class="hero-description">
+                            De la communication digitale au développement web, en passant par la création graphique et
+                            la scénographie, j'aime explorer différentes façons de donner vie aux idées. Imaginer,
+                            concevoir, coder, expérimenter et transformer les projets en réalisations concrètes.
+                        </p>
+
+                        <div class="hero-buttons">
+                            <a href="#portfolio" class="hero-btn-primary">
+                                DÉCOUVRIR MES PROJETS ↗
+                            </a>
+
+                            <a href="./assets/pdf/CV_Fanny_Daillet.pdf" class="hero-btn-secondary"
+                                download="cv_fanny_daillet.pdf">
+                                TÉLÉCHARGER MON CV ↓
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Personnage crayonné -->
+                    <div class="col-lg-5 hero-illustration">
+                        <img src="./assets/img/esquisse_fd.png" alt="Illustration crayonnée de Fanny Daillet"
+                            class="hero-personnage">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="hero-decoration">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </section>
+
 
 
     </header>
 
-    <section id="competences">
+    <!-- <section id="competences">
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <h2 class="mt-5 mb-5">Compétences</h2>
@@ -187,8 +252,91 @@
 
             </div>
         </div>
-    </section>
+    </section> -->
 
+
+    <!-- COMPÉTENCES -->
+    <section id="competences" class="skills-section">
+        <div class="container">
+
+            <div class="skills-heading">
+
+                <div class="section-heading section-heading-light">
+                    <span class="section-eyebrow">MES SAVOIR-FAIRE & EXPERTISES</span>
+                    <h2>MES <span>COMPÉTENCES.</span></h2>
+                </div>
+
+                <p>Des idées à leur réalisation, des compétences
+                    complémentaires au service de projets créatifs.</p>
+            </div>
+
+            <div class="row g-4">
+
+                <!-- Communication -->
+                <div class="col-md-6">
+                    <article class="skill-card">
+                        <span class="skill-number">01</span>
+                        <h3>Communication digitale</h3>
+                        <div class="skill-tags">
+                            <span>Réseaux sociaux</span>
+                            <span>Création de contenus</span>
+                            <span>Rédaction web</span>
+                            <span>Newsletters</span>
+                            <span>Mailing</span>
+                            <span>Veille</span>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Création graphique -->
+                <div class="col-md-6">
+                    <article class="skill-card">
+                        <span class="skill-number">02</span>
+                        <h3>Création graphique & audiovisuelle</h3>
+                        <div class="skill-tags">
+                            <span>Photoshop</span>
+                            <span>Illustrator</span>
+                            <span>InDesign</span>
+                            <span>Premiere Pro</span>
+                            <span>Photographie</span>
+                            <span>Montage vidéo</span>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Événementiel -->
+                <div class="col-md-6">
+                    <article class="skill-card">
+                        <span class="skill-number">03</span>
+                        <h3>Événementiel</h3>
+                        <div class="skill-tags">
+                            <span>Communication événementielle</span>
+                            <span>Promotion d'événements</span>
+                            <span>Scénographie</span>
+                            <span>Création d'univers visuels</span>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Web -->
+                <div class="col-md-6">
+                    <article class="skill-card">
+                        <span class="skill-number">04</span>
+                        <h3>Web & développement</h3>
+                        <div class="skill-tags">
+                            <span>Webdesign</span>
+                            <span>HTML / CSS</span>
+                            <span>JavaScript</span>
+                            <span>PHP</span>
+                            <span>SQL</span>
+                            <span>WordPress</span>
+                        </div>
+                    </article>
+                </div>
+
+            </div>
+        </div>
+    </section>
 
 
 
@@ -196,81 +344,382 @@
     <section class="timeline" id="experiences">
         <div class="container">
             <div class="row d-flex justify-content-center">
-                <h2 class="mt-5 ">Expériences</h2>
+
+                <div class="section-heading section-heading-dark">
+                    <span class="section-eyebrow">MON PARCOURS PROFESSIONNEL</span>
+                    <h2>MES <span>EXPÉRIENCES.</span></h2>
+                </div>
+
                 <ul>
                     <li>
                         <div>
-                            <time>2024-2025</time> <strong>AED TICE (informatique et communication)</strong>
+                            <time>2025 - 2026</time> <strong>Expérience au Canada </strong>
                             <br>
-                            <p class="mt-2"> Cité scolaire Delambre Montaigne -
-                                Amiens</p>
-                        </div>
-                    </li>
-                     <li>
-                        <div>
-                            <time>2024</time> <strong>Chargée de communication</strong>
-                            <br>
-                            <p class="mt-2"> BTP CFA Picardie -
-                                Amiens</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <time>2018-2022</time> <strong>Chargée de communication</strong>
-                            <br>
-                            <p class="mt-2"> Direction Départementale des Territoires et de la Mer de la Somme -
-                                Amiens</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <time>2018</time> <strong>Chargée de communication et Webdesigner </strong>
-                            <br>
-                            <p class="mt-2">Association Nationale Française des Ergothérapeutes - Paris</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <time>2017-2018</time> <strong>Chargée de communication et Webdesigner</strong>
-                            <br>
-                            <p class="mt-2"> CAF de la Somme - Amiens</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <time>2017</time> <strong>Webdesigner</strong>
-                            <br>
-                            <p class="mt-2"> Rectorat - Académie d’Amiens</p>
+                            <p class="mt-2"> Communication, événementiel et milieu animalier
+                            </p>
+
+                            <!-- Détails de l'expérience Canada -->
+                            <button type="button" class="experience-toggle" aria-expanded="false"
+                                aria-controls="canada-details">
+                                DÉCOUVRIR MES MISSIONS
+                                <span aria-hidden="true">↗</span>
+                            </button>
+
+                            <div class="experience-details" id="canada-details" hidden>
+
+                                <h5>COMMUNICATION & SCÉNOGRAPHIE — PANDEMONIUM VI</h5>
+                                <p>
+                                    Conception, fabrication et installation de décors
+                                    immersifs à Montréal. Création de supports visuels,
+                                    participation à la promotion de l'événement
+                                    et coordination d'équipe.
+                                </p>
+
+                                <h5>VOLONTARIAT EN REFUGE ANIMALIER</h5>
+                                <p>
+                                    Soins quotidiens aux animaux sauvages
+                                    et participation au fonctionnement du refuge.
+                                </p>
+
+                                <h5>MUSHER — CONDUCTRICE DE CHIENS DE TRAINEAU</h5>
+                                <p>
+                                    Accueil et accompagnement du public,
+                                    conduite d'attelages et soins quotidiens aux chiens.
+                                </p>
+
+                            </div>
+
                         </div>
                     </li>
                     <li>
                         <div>
-                            <time>2015-2016</time> <strong>Chargée de communication</strong>
+                            <time>2024 - 2025</time> <strong>Gestionnaire informatique & communication</strong>
                             <br>
-                            <p class="mt-2">Groupe ProRobs - Orthoprothésiste
-                                Picardie et Normandie</p>
+
+                            <p class="experience-location">
+                                <i class="bi bi-geo-alt"></i>
+                                <span class="experience-location-text">
+                                    <span class="experience-company">Cité scolaire Delambre-Montaigne</span>
+                                    <span class="experience-city">AMIENS</span>
+                                </span>
+                            </p>
+
+                            <button type="button" class="experience-toggle" aria-expanded="false"
+                                aria-controls="delambre-details">
+                                DÉCOUVRIR MES MISSIONS
+                                <span aria-hidden="true">↗</span>
+                            </button>
+
+                            <div class="experience-details" id="delambre-details" hidden>
+
+                                <h5>COMMUNICATION DIGITALE</h5>
+                                <p>
+                                    Gestion et actualisation du site WordPress,
+                                    création de contenus et valorisation des projets
+                                    de l'établissement sur les supports numériques.
+                                </p>
+
+                                <h5>PHOTOGRAPHIE & ÉVÉNEMENTIEL</h5>
+                                <p>
+                                    Réalisation de reportages photographiques,
+                                    couverture des événements et conception
+                                    de supports de communication.
+                                </p>
+
+                                <h5>INFORMATIQUE & SUPPORT NUMÉRIQUE</h5>
+                                <p>
+                                    Gestion des équipements informatiques,
+                                    assistance technique et accompagnement
+                                    des utilisateurs aux outils numériques.
+                                </p>
+
+                            </div>
+
                         </div>
                     </li>
                     <li>
                         <div>
-                            <time>2014</time> <strong>Chargée de communication</strong>
+                            <time>2023 - 2024</time> <strong>Chargée de communication & marketing</strong>
                             <br>
-                            <p class="mt-2"> EDF - Direction de la communication Paris</p>
+                            <p class="experience-location">
+                                <i class="bi bi-geo-alt"></i>
+                                <span class="experience-location-text">
+                                    <span class="experience-company">CFA BTP Picardie</span>
+                                    <span class="experience-city">AMIENS</span>
+                                </span>
+                            </p>
+
+                            <button type="button" class="experience-toggle" aria-expanded="false"
+                                aria-controls="cfa-details">
+                                DÉCOUVRIR MES MISSIONS
+                                <span aria-hidden="true">↗</span>
+                            </button>
+
+                            <div class="experience-details" id="cfa-details" hidden>
+
+                                <h5>COMMUNICATION & MARKETING</h5>
+                                <p>
+                                    Participation aux actions de communication
+                                    et de promotion des formations de l'établissement.
+                                </p>
+
+                                <h5>CRÉATION DE CONTENUS</h5>
+                                <p>
+                                    Conception de supports de communication
+                                    print et digitaux et animation des réseaux sociaux.
+                                </p>
+
+                                <h5>PROMOTION & ÉVÉNEMENTIEL</h5>
+                                <p>
+                                    Participation à la valorisation des formations,
+                                    des projets et des événements du CFA.
+                                </p>
+
+                            </div>
+
                         </div>
                     </li>
                     <li>
                         <div>
-                            <time>2013</time> <strong>Chargée de communication</strong>
+                            <time>2019 - 2022</time> <strong>Chargée de communication</strong>
                             <br>
-                            <p class="mt-2"> La Croix-Rouge française - Direction
-                                Régionale Nord-Ouest</p>
+                            <p class="experience-location">
+                                <i class="bi bi-geo-alt"></i>
+                                <span class="experience-location-text">
+                                    <span class="experience-company">Direction Départementale des Territoires et de la
+                                        Mer de la Somme</span>
+                                    <span class="experience-city">AMIENS</span>
+                                </span>
+                            </p>
+
+                            <button type="button" class="experience-toggle" aria-expanded="false"
+                                aria-controls="ddtm-details">
+                                DÉCOUVRIR MES MISSIONS
+                                <span aria-hidden="true">↗</span>
+                            </button>
+
+                            <div class="experience-details" id="ddtm-details" hidden>
+
+                                <h5>COMMUNICATION INSTITUTIONNELLE</h5>
+                                <p>
+                                    Participation à la communication interne et externe
+                                    et valorisation des actions et dispositifs
+                                    de l'établissement.
+                                </p>
+
+                                <h5>CRÉATION GRAPHIQUE & AUDIOVISUELLE</h5>
+                                <p>
+                                    Conception de supports print et digitaux,
+                                    création graphique et montage vidéo.
+                                </p>
+
+                                <h5>COMMUNICATION ÉDITORIALE</h5>
+                                <p>
+                                    Rédaction de newsletters et création de contenus
+                                    pour informer et sensibiliser différents publics.
+                                </p>
+
+                            </div>
+
                         </div>
                     </li>
                     <li>
                         <div>
-                            <time>2012</time> <strong>Chargée de communication</strong>
+                            <time>2018 - 2019</time> <strong>Chargée de communication & Webdesigner </strong>
                             <br>
-                            <p class="mt-2"> CROUS Amiens Picardie</p>
+                            <p class="experience-location">
+                                <i class="bi bi-geo-alt"></i>
+                                <span class="experience-location-text">
+                                    <span class="experience-company">Association Nationale Française des
+                                        Ergothérapeutes</span>
+                                    <span class="experience-city">Paris</span>
+                                </span>
+                            </p>
+
+                            <button type="button" class="experience-toggle" aria-expanded="false"
+                                aria-controls="anfe-details">
+                                DÉCOUVRIR MES MISSIONS
+                                <span aria-hidden="true">↗</span>
+                            </button>
+
+                            <div class="experience-details" id="anfe-details" hidden>
+
+                                <h5>COMMUNICATION DIGITALE</h5>
+                                <p>
+                                    Animation des réseaux sociaux et actualisation
+                                    du site internet de l'association.
+                                </p>
+
+                                <h5>WEBDESIGN & CRÉATION GRAPHIQUE</h5>
+                                <p>
+                                    Conception de visuels et de supports
+                                    de communication adaptés au web.
+                                </p>
+
+                                <h5>CRÉATION DE CONTENUS</h5>
+                                <p>
+                                    Rédaction et diffusion de contenus pour valoriser
+                                    les activités et les actions de l'association.
+                                </p>
+
+                            </div>
+
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <time>2017 - 2018</time> <strong>Chargée de communication & Webdesigner</strong>
+                            <br>
+                            <p class="experience-location">
+                                <i class="bi bi-geo-alt"></i>
+                                <span class="experience-location-text">
+                                    <span class="experience-company">CAF de la Somme</span>
+                                    <span class="experience-city">Amiens</span>
+                                </span>
+                            </p>
+                            <button type="button" class="experience-toggle" aria-expanded="false"
+                                aria-controls="caf-details">
+                                DÉCOUVRIR MES MISSIONS
+                                <span aria-hidden="true">↗</span>
+                            </button>
+
+                            <div class="experience-details" id="caf-details" hidden>
+
+                                <h5>COMMUNICATION ÉDITORIALE</h5>
+                                <p>
+                                    Participation à la conception et à la réalisation
+                                    du rapport d'activité de la CAF.
+                                </p>
+
+                                <h5>COMMUNICATION INTERNE & INTRANET</h5>
+                                <p>
+                                    Mise à jour des contenus de l'intranet
+                                    et des informations destinées aux collaborateurs.
+                                </p>
+
+                                <h5>CRÉATION GRAPHIQUE & ÉDITION</h5>
+                                <p>
+                                    Conception et réalisation d'un carnet
+                                    de formation.
+                                </p>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <time>2016 - 2017</time> <strong>Webdesigner</strong>
+                            <br>
+                            <p class="experience-location">
+                                <i class="bi bi-geo-alt"></i>
+                                <span class="experience-location-text">
+                                    <span class="experience-company">Rectorat</span>
+                                    <span class="experience-city">Amiens</span>
+                                </span>
+                            </p>
+                            <button type="button" class="experience-toggle" aria-expanded="false"
+                                aria-controls="rectorat-details">
+                                DÉCOUVRIR MES MISSIONS
+                                <span aria-hidden="true">↗</span>
+                            </button>
+
+                            <div class="experience-details" id="rectorat-details" hidden>
+
+                                <h5>WEBDESIGN & MAQUETTAGE</h5>
+                                <p>
+                                    Conception des maquettes graphiques de l'intranet
+                                    du Rectorat et création des interfaces utilisateur.
+                                </p>
+
+                                <h5>DÉVELOPPEMENT & INTÉGRATION WEB</h5>
+                                <p>
+                                    Intégration des maquettes et développement
+                                    des interfaces de l'intranet.
+                                </p>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <time>2015 - 2016</time> <strong>Chargée de communication</strong>
+                            <br>
+                            <p class="experience-location">
+                                <i class="bi bi-geo-alt"></i>
+                                <span class="experience-location-text">
+                                    <span class="experience-company">Groupe ProRobs - Orthoprothésiste</span>
+                                    <span class="experience-city">Picardie et Normandie</span>
+                                </span>
+                            </p>
+                            <button type="button" class="experience-toggle" aria-expanded="false"
+                                aria-controls="prorobs-details">
+                                DÉCOUVRIR MES MISSIONS
+                                <span aria-hidden="true">↗</span>
+                            </button>
+
+                            <div class="experience-details" id="prorobs-details" hidden>
+
+                                <h5>IDENTITÉ VISUELLE & CHARTE GRAPHIQUE</h5>
+                                <p>
+                                    Création des logos et conception de la charte
+                                    graphique pour construire l'identité visuelle
+                                    de l'entreprise.
+                                </p>
+
+                                <h5>WEBDESIGN & DÉVELOPPEMENT WEB</h5>
+                                <p>
+                                    Conception graphique et réalisation
+                                    du site internet.
+                                </p>
+
+                                <h5>COMMUNICATION PRINT</h5>
+                                <p>
+                                    Création de plaquettes et de supports
+                                    de communication déclinés à partir
+                                    de l'identité graphique.
+                                </p>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <time>2013 - 2014</time> <strong>Chargée de communication</strong>
+                            <br>
+                            <p class="experience-location">
+                                <i class="bi bi-geo-alt"></i>
+                                <span class="experience-location-text">
+                                    <span class="experience-company">EDF - Direction de la communication</span>
+                                    <span class="experience-city">Paris</span>
+                                </span>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <time>2012 - 2013</time> <strong>Chargée de communication</strong>
+                            <br>
+                            <p class="experience-location">
+                                <i class="bi bi-geo-alt"></i>
+                                <span class="experience-location-text">
+                                    <span class="experience-company">La Croix-Rouge française - Direction
+                                        Régionale Nord-Ouest</span>
+                                    <span class="experience-city">Amiens</span>
+                                </span>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <time>2011 - 2012</time> <strong>Chargée de communication</strong>
+                            <br>
+                            <p class="experience-location">
+                                <i class="bi bi-geo-alt"></i>
+                                <span class="experience-location-text">
+                                    <span class="experience-company">CROUS</span>
+                                    <span class="experience-city">Amiens</span>
+                                </span>
+                            </p>
                         </div>
                     </li>
                 </ul>
@@ -282,7 +731,12 @@
     <section class="education-section" id="formation">
         <div class="container">
             <div class="row d-flex justify-content-center">
-                <h2 class="mt-5 mb-5">Formations</h2>
+                <div class="education-heading">
+                    <span class="education-eyebrow">APPRENDRE, EXPLORER, ÉVOLUER</span>
+                    <h2>
+                        MES <span>FORMATIONS.</span>
+                    </h2>
+                </div>
 
 
                 <div class="education-item animate-fade-in">
@@ -332,73 +786,356 @@
         </div>
     </section>
 
-    <!-- Portfolio   -->
-    <section class="portfolio-section pb-5" id="portfolio">
+
+    <!-- PORTFOLIO -->
+    <section class="portfolio-section" id="portfolio">
         <div class="container">
-            <div class="row d-flex justify-content-start">
-                <h2 class="mt-5 mb-5">Portfolio</h2>
-                <h4 class="mt-2 mb-4">Exemples de logos réalisés</h4>
-                <div class="col-md-4 mt-3">
-                    <div class="project mt-5 mb-4">
-                        <img src="./assets/img/logo.png" alt="logo 1" class="img-fluid">
-                    </div>
-                </div>
 
-                <div class="col-md-4">
-                    <div class="project mb-4">
-                        <img src="./assets/img/logo2.png" alt="logo 2" class="img-fluid">
-                    </div>
-                </div>
+            <div class="portfolio-intro">
+                <span class="portfolio-eyebrow">CRÉATIONS & RÉALISATIONS</span>
+                <h2>MON <span>PORTFOLIO.</span></h2>
+                <p>
+                    Identités visuelles, affiches et supports de communication :
+                    un aperçu de mes créations graphiques.
+                </p>
+            </div>
 
-                <div class="col-md-4">
-                    <div class="project">
-                        <img src="./assets/img/logo3.png" alt="logo 3" class="img-fluid">
+
+            <!-- FILTRES DU PORTFOLIO -->
+            <div class="portfolio-filters" aria-label="Filtrer les réalisations">
+                <button type="button" class="filter-btn active" data-filter="all">
+                    TOUT VOIR
+                </button>
+
+                <button type="button" class="filter-btn" data-filter="identite">
+                    IDENTITÉ VISUELLE
+                </button>
+
+                <button type="button" class="filter-btn" data-filter="print">
+                    COMMUNICATION PRINT
+                </button>
+
+                <button type="button" class="filter-btn" data-filter="evenementiel">
+                    ÉVÉNEMENTIEL
+                </button>
+            </div>
+
+
+            <!-- LOGOS -->
+            <div class="portfolio-category" data-category="identite">
+                <h3>01 / IDENTITÉ VISUELLE</h3>
+
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="portfolio-card">
+                            <div class="project">
+                                <img src="./assets/img/logo.png" alt="Création de logo 1">
+                            </div>
+                            <!-- Logo 1 -->
+                            <div class="portfolio-card-info">
+                                <h4>Identité visuelle — Site personnel</h4>
+                                <p>Création de logo · Projet web personnel</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <h4 class="mt-5 mb-4">Exemples d'affiches réalisées</h4>
-                <div class="col-md-4">
-                    <div class="project mb-4">
-                        <img src="./assets/img/affiche1.png" alt="Affiche 1" class="img-fluid">
+
+                    <div class="col-md-4">
+                        <div class="portfolio-card">
+                            <div class="project">
+                                <img src="./assets/img/logo2.png" alt="Création de logo 2">
+                            </div>
+                            <!-- Logo 2 -->
+                            <div class="portfolio-card-info">
+                                <h4>Identité visuelle — Projet artistique</h4>
+                                <p>Logo pour une photographe et artiste · Proposition 01</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="project">
-                        <img src="./assets/img/affiche2.png" alt="Affiche 2" class="img-fluid">
-                    </div>
-                </div>
-                <h4 class="mt-5 mb-4">Exemples de plaquettes réalisées</h4>
-                <div class="col-md-4">
-                    <div class="project mb-4">
-                        <img src="./assets/img/plaquette1.png" alt="Plaquette 1" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="project mb-4">
-                        <img src="./assets/img/plaquette2.png" alt="Plaquette 2" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="project">
-                        <img src="./assets/img/plaquette3.png" alt="Plaquette 3" class="img-fluid">
+
+                    <div class="col-md-4">
+                        <div class="portfolio-card">
+                            <div class="project">
+                                <img src="./assets/img/logo3.png" alt="Création de logo 3">
+                            </div>
+                            <!-- Logo 3 -->
+                            <div class="portfolio-card-info">
+                                <h4>Identité visuelle — Projet artistique</h4>
+                                <p>Recherche graphique · Proposition 02</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+
+            <!-- AFFICHES -->
+            <div class="portfolio-category" data-category="print">
+                <h3>02 / AFFICHES & COMMUNICATION</h3>
+
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="portfolio-card">
+                            <div class="project">
+                                <img src="./assets/img/affiche1.png" alt="Affiche 1">
+                            </div>
+                            <!-- Affiche 1 -->
+                            <div class="portfolio-card-info">
+                                <h4>Comment financer son permis de conduire ?</h4>
+                                <p>Support d'information · DDTM de la Somme</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="portfolio-card">
+                            <div class="project">
+                                <img src="./assets/img/affiche2.png" alt="Affiche 2">
+                            </div>
+                            <!-- Affiche 2 -->
+                            <div class="portfolio-card-info">
+                                <h4>Les formations à la conduite</h4>
+                                <p>Communication institutionnelle · DDTM de la Somme</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PLAQUETTES -->
+            <div class="portfolio-category" data-category="print">
+                <h3>03 / ÉDITION & COMMUNICATION INSTITUTIONNELLE</h3>
+
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="portfolio-card">
+                            <div class="project">
+                                <img src="./assets/img/plaquette1.png" alt="Plaquette 1">
+                            </div>
+                            <div class="portfolio-card-info">
+                                <h4>Sécheresse : les bons gestes à adopter</h4>
+                                <p>Sensibilisation · DDTM de la Somme</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="portfolio-card">
+                            <div class="project">
+                                <img src="./assets/img/plaquette2.png" alt="Plaquette 2">
+                            </div>
+                            <div class="portfolio-card-info">
+                                <h4>Feux de récolte : prévenir et agir</h4>
+                                <p>Prévention des risques · DDTM de la Somme</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="portfolio-card">
+                            <div class="project">
+                                <img src="./assets/img/plaquette3.png" alt="Plaquette 3">
+                            </div>
+                            <div class="portfolio-card-info">
+                                <h4>Newsletter institutionnelle</h4>
+                                <p>Communication éditoriale · DDTM de la Somme</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- 04 / ÉVÉNEMENTIEL & SCÉNOGRAPHIE -->
+            <div class="portfolio-category pandemonium-section" data-category="evenementiel">
+
+                <h3>04 / ÉVÉNEMENTIEL & SCÉNOGRAPHIE</h3>
+
+                <div class="pandemonium-header">
+                    <span class="pandemonium-label">
+                        MONTRÉAL · CANADA · 2025
+                    </span>
+
+                    <h4>PANDEMONIUM VI<span>.</span></h4>
+
+                    <p class="pandemonium-subtitle">
+                        ENTRE L'EAU ET LE FEU
+                    </p>
+
+
+                    <p class="pandemonium-description">
+                        Conception et réalisation d'un univers
+                        scénographique immersif autour des éléments
+                        de l'eau et du feu. De l'idée initiale à
+                        l'installation finale : direction créative,
+                        coordination d'équipe, fabrication des décors
+                        et communication visuelle.
+                    </p>
+
+                    <div class="pandemonium-tags">
+                        <span>Direction créative</span>
+                        <span>Gestion d'équipe</span>
+                        <span>Scénographie</span>
+                        <span>Fabrication</span>
+                        <span>Communication visuelle</span>
+                    </div>
+                </div>
+
+                <!-- IMAGE PRINCIPALE -->
+                <div class="project pandemonium-hero-image">
+                    <img src="./assets/img/pandemonium-meduses-nuit.jpg"
+                        alt="Installation de méduses lumineuses pour Pandemonium VI" loading="lazy">
+                </div>
+
+
+                <!-- PANDEMONIUM : DE L'IDÉE À LA RÉALISATION -->
+
+                <div class="pandemonium-process">
+
+                    <div class="pandemonium-process-heading">
+                        <span>LES COULISSES DU PROJET</span>
+                        <h5>DE L'IDÉE À LA RÉALISATION<span class="pink-dot">.</span></h5>
+                    </div>
+
+                    <div class="pandemonium-process-grid">
+
+                        <div class="pandemonium-process-step">
+                            <span class="process-number">01 /</span>
+                            <h6>IMAGINER</h6>
+                            <p>
+                                Conception artistique de l'univers,
+                                recherche d'idées et création
+                                de supports de communication visuelle.
+                            </p>
+                        </div>
+
+                        <div class="pandemonium-process-step">
+                            <span class="process-number">02 /</span>
+                            <h6>FABRIQUER</h6>
+                            <p>
+                                Peinture, construction, assemblage
+                                et réalisation des éléments
+                                de scénographie.
+                            </p>
+                        </div>
+
+                        <div class="pandemonium-process-step">
+                            <span class="process-number">03 /</span>
+                            <h6>DONNER VIE</h6>
+                            <p>
+                                Installation des décors sur place,
+                                coordination de l'équipe et mise
+                                en scène de l'univers final.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- GALERIE -->
+                <div class="pandemonium-gallery">
+
+                    <div class="project">
+                        <img src="./assets/img/pandemonium-entree.jpg" alt="Décor de l'entrée de Pandemonium VI"
+                            loading="lazy">
+                    </div>
+
+                    <div class="project">
+                        <img src="./assets/img/pandemonium-peinture-feu.jpg"
+                            alt="Fabrication et peinture d'un décor de flammes" loading="lazy">
+                    </div>
+
+                    <div class="project">
+                        <img src="./assets/img/pandemonium-visuel.jpg" alt="Visuel de l'événement Pandemonium VI"
+                            loading="lazy">
+                    </div>
+
+                    <div class="project">
+                        <img src="./assets/img/pandemonium-peinture-decor.jpg"
+                            alt="Peinture d'un élément scénographique" loading="lazy">
+                    </div>
+
+                    <div class="project">
+                        <img src="./assets/img/pandemonium-meduses-jour.jpg"
+                            alt="Installation des méduses avant l'éclairage" loading="lazy">
+                    </div>
+
+                    <div class="project">
+                        <img src="./assets/img/pandemonium-construction.jpg"
+                            alt="Construction des structures scénographiques" loading="lazy">
+                    </div>
+
+                </div>
+
+
+                <!-- VIDÉOS PANDEMONIUM -->
+                <div class="pandemonium-videos">
+
+                    <h5>LE PROJET EN MOUVEMENT.</h5>
+
+                    <p>
+                        Découvrez les installations et l'univers
+                        scénographique de Pandemonium VI en vidéo.
+                    </p>
+
+                    <div class="pandemonium-video-grid">
+
+                        <video controls preload="metadata" playsinline>
+                            <source src="./assets/videos/pandemonium-video1.mp4" type="video/mp4">
+                            Votre navigateur ne prend pas en charge la vidéo.
+                        </video>
+
+                        <video controls preload="metadata" playsinline>
+                            <source src="./assets/videos/pandemonium-video2.mp4" type="video/mp4">
+                            Votre navigateur ne prend pas en charge la vidéo.
+                        </video>
+
+                    </div>
+                </div>
+
+
+            </div>
+
     </section>
 
-    
+
+
     <div id="lightbox">
         <span id="close-button" onclick="closeLightbox()">&times;</span>
         <img id="lightbox-img" src="" alt="Image agrandie">
     </div>
 
-    <footer class="footer">
+
+    <footer class="footer" id="contact">
         <div class="container">
-            <p>© 2023 Daillet Fanny. Tous droits réservés.</p>
+
+            <div class="footer-main">
+                <span class="footer-eyebrow">UN PROJET EN TÊTE ?</span>
+
+                <h2>CRÉONS QUELQUE CHOSE<span>.</span></h2>
+
+                <p>Communication · Design · Web · Événementiel</p>
+
+                <a href="mailto:fanny.daillet@gmail.com" class="footer-contact">
+                    FANNY.DAILLET@GMAIL.COM ↗
+                </a>
+            </div>
+
+            <div class="footer-bottom">
+                <strong>FANNY DAILLET</strong>
+
+                <span>© 2026 · Portfolio personnel</span>
+
+                <a href="#a-propos">RETOUR EN HAUT ↑</a>
+            </div>
+
         </div>
     </footer>
 
 
+    <a href="#a-propos" class="back-to-top" aria-label="Retour en haut">
+        ↑
+    </a>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
@@ -417,6 +1154,8 @@
 
 
     </script>
+
+
 
 </body>
 

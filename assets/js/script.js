@@ -3,244 +3,6 @@ console.log('coucou');
 
 /*********************compétences**********************/
 
-function fillProgressBar(progressValue, progressValueElement) {
-    var width = 0;
-    var interval = setInterval(function () {
-        if (width >= progressValue) {
-            clearInterval(interval);
-        } else {
-            width++;
-            progressValueElement.style.width = width + '%';
-            progressValueElement.innerHTML = width + '%';
-        }
-    }, 10);
-}
-
-var phpProgressValue = 90;
-var phpProgressValueElement = document.querySelector('.progress-value');
-fillProgressBar(phpProgressValue, phpProgressValueElement);
-
-
-function fillProgressBar(progressValue, progressValueElement) {
-    var width = 0;
-    var interval = setInterval(function () {
-        if (width >= progressValue) {
-            clearInterval(interval);
-        } else {
-            width++;
-            progressValueElement.style.width = width + '%';
-            progressValueElement.innerHTML = width + '%';
-        }
-    }, 10);
-}
-
-var phpProgressValue = 80;
-var phpProgressValueElement = document.querySelector('.progress-value2');
-fillProgressBar(phpProgressValue, phpProgressValueElement);
-
-function fillProgressBar(progressValue, progressValueElement) {
-    var width = 0;
-    var interval = setInterval(function () {
-        if (width >= progressValue) {
-            clearInterval(interval);
-        } else {
-            width++;
-            progressValueElement.style.width = width + '%';
-            progressValueElement.innerHTML = width + '%';
-        }
-    }, 10);
-}
-
-var phpProgressValue = 40;
-var phpProgressValueElement = document.querySelector('.progress-value3');
-fillProgressBar(phpProgressValue, phpProgressValueElement);
-
-function fillProgressBar(progressValue, progressValueElement) {
-    var width = 0;
-    var interval = setInterval(function () {
-        if (width >= progressValue) {
-            clearInterval(interval);
-        } else {
-            width++;
-            progressValueElement.style.width = width + '%';
-            progressValueElement.innerHTML = width + '%';
-        }
-    }, 10);
-}
-
-var phpProgressValue = 73;
-var phpProgressValueElement = document.querySelector('.progress-value4');
-fillProgressBar(phpProgressValue, phpProgressValueElement);
-
-function fillProgressBar(progressValue, progressValueElement) {
-    var width = 0;
-    var interval = setInterval(function () {
-        if (width >= progressValue) {
-            clearInterval(interval);
-        } else {
-            width++;
-            progressValueElement.style.width = width + '%';
-            progressValueElement.innerHTML = width + '%';
-        }
-    }, 10);
-}
-
-var phpProgressValue = 56;
-var phpProgressValueElement = document.querySelector('.progress-value5');
-fillProgressBar(phpProgressValue, phpProgressValueElement);
-
-function fillProgressBar(progressValue, progressValueElement) {
-    var width = 0;
-    var interval = setInterval(function () {
-        if (width >= progressValue) {
-            clearInterval(interval);
-        } else {
-            width++;
-            progressValueElement.style.width = width + '%';
-            progressValueElement.innerHTML = width + '%';
-        }
-    }, 10);
-}
-
-var phpProgressValue = 62;
-var phpProgressValueElement = document.querySelector('.progress-value6');
-fillProgressBar(phpProgressValue, phpProgressValueElement);
-
-function fillProgressBar(progressValue, progressValueElement) {
-    var width = 0;
-    var interval = setInterval(function () {
-        if (width >= progressValue) {
-            clearInterval(interval);
-        } else {
-            width++;
-            progressValueElement.style.width = width + '%';
-            progressValueElement.innerHTML = width + '%';
-        }
-    }, 10);
-}
-
-var phpProgressValue = 88;
-var phpProgressValueElement = document.querySelector('.progress-value7');
-fillProgressBar(phpProgressValue, phpProgressValueElement);
-
-function fillProgressBar(progressValue, progressValueElement) {
-    var width = 0;
-    var interval = setInterval(function () {
-        if (width >= progressValue) {
-            clearInterval(interval);
-        } else {
-            width++;
-            progressValueElement.style.width = width + '%';
-            progressValueElement.innerHTML = width + '%';
-        }
-    }, 10);
-}
-
-var phpProgressValue = 72;
-var phpProgressValueElement = document.querySelector('.progress-value8');
-fillProgressBar(phpProgressValue, phpProgressValueElement);
-
-function fillProgressBar(progressValue, progressValueElement) {
-    var width = 0;
-    var interval = setInterval(function () {
-        if (width >= progressValue) {
-            clearInterval(interval);
-        } else {
-            width++;
-            progressValueElement.style.width = width + '%';
-            progressValueElement.innerHTML = width + '%';
-        }
-    }, 10);
-}
-
-var phpProgressValue = 87;
-var phpProgressValueElement = document.querySelector('.progress-value9');
-fillProgressBar(phpProgressValue, phpProgressValueElement);
-
-function fillProgressBar(progressValue, progressValueElement) {
-    var width = 0;
-    var interval = setInterval(function () {
-        if (width >= progressValue) {
-            clearInterval(interval);
-        } else {
-            width++;
-            progressValueElement.style.width = width + '%';
-            progressValueElement.innerHTML = width + '%';
-        }
-    }, 10);
-}
-
-var phpProgressValue = 92;
-var phpProgressValueElement = document.querySelector('.progress-value10');
-fillProgressBar(phpProgressValue, phpProgressValueElement);
-
-function fillProgressBar(progressValue, progressValueElement) {
-    var width = 0;
-    var interval = setInterval(function () {
-        if (width >= progressValue) {
-            clearInterval(interval);
-        } else {
-            width++;
-            progressValueElement.style.width = width + '%';
-            progressValueElement.innerHTML = width + '%';
-        }
-    }, 10);
-}
-
-var phpProgressValue = 85;
-var phpProgressValueElement = document.querySelector('.progress-value11');
-fillProgressBar(phpProgressValue, phpProgressValueElement);
-
-function fillProgressBar(progressValue, progressValueElement) {
-    var width = 0;
-    var interval = setInterval(function () {
-        if (width >= progressValue) {
-            clearInterval(interval);
-        } else {
-            width++;
-            progressValueElement.style.width = width + '%';
-            progressValueElement.innerHTML = width + '%';
-        }
-    }, 10);
-}
-
-var phpProgressValue = 87;
-var phpProgressValueElement = document.querySelector('.progress-value12');
-fillProgressBar(phpProgressValue, phpProgressValueElement);
-
-function fillProgressBar(progressValue, progressValueElement) {
-    var width = 0;
-    var interval = setInterval(function () {
-        if (width >= progressValue) {
-            clearInterval(interval);
-        } else {
-            width++;
-            progressValueElement.style.width = width + '%';
-            progressValueElement.innerHTML = width + '%';
-        }
-    }, 10);
-}
-
-var phpProgressValue = 78;
-var phpProgressValueElement = document.querySelector('.progress-value13');
-fillProgressBar(phpProgressValue, phpProgressValueElement);
-
-function fillProgressBar(progressValue, progressValueElement) {
-    var width = 0;
-    var interval = setInterval(function () {
-        if (width >= progressValue) {
-            clearInterval(interval);
-        } else {
-            width++;
-            progressValueElement.style.width = width + '%';
-            progressValueElement.innerHTML = width + '%';
-        }
-    }, 10);
-}
-
-var phpProgressValue = 90;
-var phpProgressValueElement = document.querySelector('.progress-value14');
-fillProgressBar(phpProgressValue, phpProgressValueElement);
 
 
 /*********************Expériences**********************/
@@ -251,13 +13,11 @@ fillProgressBar(phpProgressValue, phpProgressValueElement);
     var items = document.querySelectorAll(".timeline li");
 
     function isElementInViewport(el) {
-        var rect = el.getBoundingClientRect();
+        const rect = el.getBoundingClientRect();
+    
         return (
-            rect.top >= 0 &&
-            rect.left >= 0 &&
-            rect.bottom <=
-            (window.innerHeight || document.documentElement.clientHeight) &&
-            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+            rect.top < window.innerHeight * 0.65 &&
+            rect.bottom > 0
         );
     }
 
@@ -274,19 +34,6 @@ fillProgressBar(phpProgressValue, phpProgressValueElement);
     window.addEventListener("scroll", callbackFunc);
 })();
 
-
-window.addEventListener("scroll", function () {
-    var competences = document.querySelectorAll(".competence");
-    competences.forEach(function (competence, index) {
-        var competenceTop = competence.offsetTop;
-        var competenceHeight = competence.clientHeight;
-        var scrollTop = window.pageYOffset;
-        var windowHeight = window.innerHeight;
-        if (scrollTop > competenceTop - windowHeight + competenceHeight / 2) {
-            competence.classList.add("visible");
-        }
-    });
-});
 
 
 /*********************Formations**********************/
@@ -327,3 +74,186 @@ projects.forEach(project => {
         lightbox.style.display = 'block';
     });
 });
+
+
+
+/* FILTRES DU PORTFOLIO */
+
+document.querySelectorAll(".filter-btn").forEach(button => {
+    button.addEventListener("click", () => {
+        const filter = button.dataset.filter;
+
+        // Mettre en évidence le bouton sélectionné
+        document.querySelectorAll(".filter-btn").forEach(btn => {
+            btn.classList.remove("active");
+        });
+        button.classList.add("active");
+
+        // Afficher ou masquer les catégories
+        document.querySelectorAll("[data-category]").forEach(section => {
+            const show = filter === "all" || section.dataset.category === filter;
+            section.style.display = show ? "" : "none";
+        });
+    });
+});
+
+
+/* Afficher / masquer les missions professionnelles */
+
+
+document.querySelectorAll(".experience-toggle").forEach((button) => {
+    const details = document.getElementById(
+        button.getAttribute("aria-controls")
+    );
+
+    if (!details) return;
+
+    const reduceButton = document.createElement("button");
+    reduceButton.type = "button";
+    reduceButton.className = "experience-reduce";
+    reduceButton.innerHTML = 'RÉDUIRE <span aria-hidden="true">↑</span>';
+    reduceButton.hidden = true;
+
+    details.appendChild(reduceButton);
+    details.style.overflow = "hidden";
+
+    let animation = null;
+
+    function toggleDetails(open) {
+        if (animation) {
+            animation.cancel();
+            animation = null;
+        }
+
+        button.setAttribute("aria-expanded", String(open));
+        button.hidden = open;
+
+        if (open) {
+            details.hidden = false;
+            reduceButton.hidden = false;
+
+            const height = details.scrollHeight;
+
+            animation = details.animate(
+                [
+                    { height: "0px", opacity: 0 },
+                    { height: height + "px", opacity: 1 }
+                ],
+                { duration: 450, easing: "ease-in-out" }
+            );
+
+            animation.onfinish = () => {
+                animation = null;
+            
+                const card = button.closest("li").querySelector(":scope > div");
+                const rect = card.getBoundingClientRect();
+            
+                const topLimit = 120;
+                const availableHeight = window.innerHeight - topLimit - 25;
+            
+                const targetTop = rect.height <= availableHeight
+                    ? topLimit + (availableHeight - rect.height) / 2
+                    : topLimit;
+            
+                window.scrollTo({
+                    top: window.scrollY + rect.top - targetTop,
+                    behavior: "smooth"
+                });
+            };
+        } else {
+            const height = details.scrollHeight;
+
+            animation = details.animate(
+                [
+                    { height: height + "px", opacity: 1 },
+                    { height: "0px", opacity: 0 }
+                ],
+                { duration: 450, easing: "ease-in-out" }
+            );
+
+            animation.onfinish = () => {
+                animation = null;
+                details.hidden = true;
+                reduceButton.hidden = true;
+
+                
+
+                button.closest("li").scrollIntoView({
+                    behavior: "smooth",
+                    block: "start"
+                });
+            };
+        }
+    }
+
+    button.addEventListener("click", () => toggleDetails(true));
+    reduceButton.addEventListener("click", () => toggleDetails(false));
+});
+
+
+/* Navigation — section active au défilement */
+
+
+/* Navigation — section active au défilement */
+
+const navLinks = document.querySelectorAll(".navbar .nav-link");
+
+const navSections = [...navLinks]
+    .map(link => {
+        const href = link.getAttribute("href");
+        if (!href || href === "#") return null;
+        return document.querySelector(href);
+    })
+    .filter(Boolean);
+
+function updateActiveNavigation() {
+    const scrollPosition = window.scrollY + 150;
+    let activeHref = "#";
+
+    navSections.forEach(section => {
+        if (section.getBoundingClientRect().top +
+            window.scrollY <= scrollPosition) {
+            activeHref = "#" + section.id;
+        }
+    });
+
+    navLinks.forEach(link => {
+        const isActive = link.getAttribute("href") === activeHref;
+
+        link.classList.toggle("active", isActive);
+
+        if (isActive) {
+            link.setAttribute("aria-current", "location");
+        } else {
+            link.removeAttribute("aria-current");
+        }
+    });
+}
+
+window.addEventListener("scroll", updateActiveNavigation, {
+    passive: true
+});
+
+window.addEventListener("resize", updateActiveNavigation);
+
+updateActiveNavigation();
+
+
+document.querySelectorAll('.navbar-collapse .nav-link').forEach(link => {
+    link.addEventListener('click', () => {
+        const menu = document.querySelector('.navbar-collapse');
+
+        if (menu && menu.classList.contains('show')) {
+            bootstrap.Collapse.getOrCreateInstance(menu).hide();
+        }
+    });
+});
+
+const backToTop = document.querySelector(".back-to-top");
+
+function updateBackToTop() {
+    backToTop.classList.toggle("visible", window.scrollY > 400);
+}
+
+window.addEventListener("scroll", updateBackToTop);
+updateBackToTop();
