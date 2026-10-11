@@ -2594,8 +2594,9 @@ html {
     scrollbar-width: none;
 }
 
-html::-webkit-scrollbar {
-    display: none;
+html {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #171719;
 }
 
 @media (max-width: 600px) {
