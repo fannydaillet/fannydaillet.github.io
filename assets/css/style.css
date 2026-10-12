@@ -739,6 +739,10 @@ h2::before {
 
 
 .project img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
     border-radius: 4px;
     transition: transform 0.3s ease;
 }
@@ -1667,18 +1671,12 @@ h2::before {
 
 /* CORRECTION PHOTO PRINCIPALE PANDEMONIUM */
 
-.portfolio-section .project.pandemonium-hero-image {
-    width: 100%;
-    margin: 35px 0 45px;
-    position: relative;
-    overflow: hidden;
-}
-
 .portfolio-section .project.pandemonium-hero-image img {
     display: block;
     width: 100%;
     height: clamp(300px, 55vw, 650px);
     object-fit: cover;
+    object-position: center 23%;
     padding: 0;
 }
 
@@ -1820,7 +1818,7 @@ h2::before {
 .pandemonium-gallery .project:first-child {
     grid-column: 1 / -1;
     grid-row: auto;
-    height: 480px;
+    height: 450px;
 }
 
 /* Dernière photo : construction */
@@ -2911,4 +2909,83 @@ html {
     .navbar .navbar-nav .nav-link:hover::after {
         width: 0;
     }
+}
+
+/* Bateau en bois sur toute la largeur */
+.pandemonium-gallery .project:nth-last-child(3) {
+    grid-column: 1 / -1;
+    height: 400px;
+}
+
+/* Méduse et coraux côte à côte */
+.pandemonium-gallery .project:nth-last-child(2),
+.pandemonium-gallery .project:last-child {
+    grid-column: auto;
+    height: 300px;
+}
+
+/* PHOTOGRAPHIE — GALERIE */
+
+.photo-intro {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.7;
+    max-width: 100%;
+    margin-bottom: 35px;
+}
+
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 15px;
+}
+
+.photo-item {
+    overflow: hidden;
+    background: #171719;
+    border-radius: 3px;
+    aspect-ratio: 4 / 5;
+}
+
+.photo-item img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.photo-item:hover img {
+    transform: scale(1.04);
+}
+
+@media (max-width: 768px) {
+    .photo-gallery {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .photo-gallery {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Titres des réalisations du portfolio */
+.portfolio-card-info h4 {
+    font-size: 1.05rem;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+/* Correction du titre de la première affiche */
+.portfolio-card-info h4.titre-permis {
+    font-size: 0.95rem;
+    white-space: nowrap;
+    letter-spacing: -0.3px;
+}
+
+.logo-papillon {
+    filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.7));
 }
