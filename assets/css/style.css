@@ -2989,3 +2989,12 @@ html {
 .logo-papillon {
     filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.7));
 }
+
+@media (max-width: 768px) {
+  .hero-accroche {
+    font-size: 5.5vw !important;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 1.4;
+  }
+}
